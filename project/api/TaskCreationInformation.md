@@ -54,6 +54,7 @@ body = {
 
 ### <a name="properties"></a>Properties
 > [!div class="mx-tdBreakAll"]
+> 
 |**Name**|**.NET**|**JSOM**|**REST**|**Type**|**Description**|
 |:-----|:-----:|:-----:|:-----:|:-----|:-----|
 |<a name="AddAfterId"></a>AddAfterId|&#x2713;&#x02B7;|&#x2713;&#x02B7;|&#x2713;&#x02B7;|Guid|Gets or sets the GUID value of the task that specifies the insertion point.|
