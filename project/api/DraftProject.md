@@ -37,7 +37,6 @@ http://contoso.sharepoint.com/sites/pwa/api/ProjectServer/Projects('{projectid}'
 &#x2713; - Read Support &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2713;&#x02B7; - Write Support
 
 ### <a name="properties"></a>Properties
-> [!div class="mx-tdBreakAll"]
 |**Name**|**.NET**|**JSOM**|**REST**|**Type**|**Description**|
 |:-----|:-----:|:-----:|:-----:|:-----|:-----|
 |<a name="[]"></a>[]|&#x2713;&#x02B7;|||Dictionary&lt;string, Object&gt;|Gets or sets an item in the draft project.|
@@ -84,7 +83,7 @@ http://contoso.sharepoint.com/sites/pwa/api/ProjectServer/Projects('{projectid}'
 
 
 ### <a name="methods"></a>Methods
-> [!div class="mx-tdBreakAll"]
+
 |**Name**|**.NET**|**JSOM**|**REST**|**Return Type**|**Description**|
 |:-----|:-----:|:-----:|:-----:|:-----|:-----|
 |[ChangeEnterpriseProjectType(Guid enterpriseProjectTypeUid)](#ChangeEnterpriseProjectType_Guid_enterpriseProjectTypeUid_)|||&#x2713;|void|Changes or sets an [EnterpriseProjectType](EnterpriseProjectType.md) associated with a project.|
@@ -108,7 +107,7 @@ void ChangeEnterpriseProjectType(Guid enterpriseProjectTypeUid)
 ```
 
 ##### Parameters
-> [!div class="mx-tdBreakAll"]
+
 |**Name** |**Type**|**Description**|
 |:------ |:----|:------ |
 |enterpriseProjectTypeUid|Guid|Id of the new [EnterpriseProjectType](EnterpriseProjectType.md).
@@ -128,7 +127,7 @@ QueueJob CheckIn(Boolean force)
 ```
 
 ##### Parameters
-> [!div class="mx-tdBreakAll"]
+
 |**Name** |**Type**|**Description**|
 |:------ |:----|:------ |
 |force | Boolean | True if the administrator or project owner forces check in of a project; otherwise, False.
@@ -149,7 +148,7 @@ QueueJob Publish(Boolean checkIn)
 ```
 
 ##### Parameters
-> [!div class="mx-tdBreakAll"]
+
 |**Name** |**Type**|**Description**|
 |:------ |:----|:------ |
 |checkIn| Boolean | Boolean that indicates whether the project should be checked in after it is published.
@@ -187,7 +186,7 @@ QueueJob UpdateCustomFields(Collection(SP.KeyValue) customFieldDictionary)
 ```
 
 ##### Parameters
-> [!div class="mx-tdBreakAll"]
+
 |**Name** |**Type**|**Description**|
 |:------ |:----|:------ |
 |customFieldDictionary|Collection([SP.KeyValue](https://msdn.microsoft.com/en-us/library/office/dn600183.aspx#bk_KeyValue))|Collection of project custom fields to set for the project
