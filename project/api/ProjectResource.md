@@ -38,7 +38,6 @@ http://contoso.sharepoint.com/sites/pwa/_api/ProjectServer/Projects('{projectId}
 &#x2713; - Read Support &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2713;&#x02B7; - Write Support
 
 ### <a name="properties"></a>Properties
-> [!div class="mx-tdBreakAll"]
 |**Name**|**.NET**|**JSOM**|**REST**|**Type**|**Description**|
 |:-----|:-----:|:-----:|:-----:|:-----|:-----|
 |<a name="ActualCost"></a>ActualCost|&#x2713;|&#x2713;|&#x2713;|Double|Gets the costs incurred for work that has been performed by the project resource, along with any other recorded costs.|
