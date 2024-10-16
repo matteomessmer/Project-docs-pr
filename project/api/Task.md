@@ -39,7 +39,7 @@ http://contoso.sharepoint.com/sites/pwa/_api/ProjectServer/Projects('projectid')
 &#x2713; - Read Support &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2713;&#x02B7; - Write Support
 
 ### <a name="properties"></a>Properties
-> [!div class="mx-tdBreakAll"]
+
 |**Name**|**.NET**|**JSOM**|**REST**|**Type**|**Description**|
 |:-----|:-----:|:-----:|:-----:|:-----|:-----|
 |<a name="ActualCostWorkPerformed"></a>ActualCostWorkPerformed|&#x2713;|&#x2713;|&#x2713;|Double|Decimal value|Gets the costs incurred for work already performed by resources on the task to date.|
