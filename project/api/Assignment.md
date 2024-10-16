@@ -38,7 +38,7 @@ PS.Assignment
 &#x2713; - Read Support &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2713;&#x02B7; - Write Support
 
 ### <a name="properties"></a>Properties
->[!div class="mx-tdBreakAll"]
+
 |**Name**|**.NET**|**JSOM**|**REST**|**Type**|**Description**|
 |:-----|:-----:|:-----:|:-----:|:-----|:-----|
 |<a name="ActualCostWorkPerformed"></a>ActualCostWorkPerformed|&#x2713;|&#x2713;|&#x2713;|Double|Gets the actual cost of work performed (ACWP) for the assignment to date.|
