@@ -41,7 +41,7 @@ http://contoso.sharepoint.com/sites/pwa/api/ProjectServer/Projects('projectid')/
 &#x2713; - Read Support &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2713;&#x02B7; - Write Support
 
 ### <a name="properties"></a>Properties
-> [!div class="mx-tdBreakAll"]
+
 |**Name**|**.NET**|**JSOM**|**REST**|**Type**|**Description**|
 |:-----|:-----:|:-----:|:-----:|:-----|:-----|
 |<a name="[]"></a>[]|&#x2713;&#x02B7;|||Dictionary&lt;string, Object&gt;|Gets or sets an item in the project summary task.|
