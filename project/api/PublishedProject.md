@@ -38,7 +38,7 @@ http://contoso.sharepoint.com/sites/pwa/api/ProjectServer/Projects('{projectid}'
 &#x2713; - Read Support &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2713;&#x02B7; - Write Support
 
 ### <a name="properties"></a>Properties
-> [!div class="mx-tdBreakAll"]
+
 |**Name**|**.NET**|**JSOM**|**REST**|**Type**|**Description**|
 |:-----|:-----:|:-----:|:-----:|:-----|:-----|
 |<a name="[]"></a>[]|&#x2713;&#x02B7;|||Dictionary&lt;string, Object&gt;|Gets or sets an item in the published project.|
@@ -91,7 +91,7 @@ http://contoso.sharepoint.com/sites/pwa/api/ProjectServer/Projects('{projectid}'
 |<a name="WinprojVersion"></a>WinprojVersion|&#x2713;|&#x2713;|&#x2713;|Decimal|Gets the version of Project Professional that created the published project.|
 
 ### <a name="methods"></a>Methods
-> [!div class="mx-tdBreakAll"]
+
 |**Name**|**.NET**|**JSOM**|**REST**|**Return Type**|**Description**|
 |:-----|:-----: |:-----: |:-----: |:-----|:-----|
 |[CheckOut()](#CheckOut__)|&#x2713;|&#x2713;|&#x2713;|[DraftProject](DraftProject.md)|Checks out the draft version of the project.|
@@ -134,7 +134,7 @@ void CreateProjectSite(String siteName)
 ```
 
 ##### Parameters
-> [!div class="mx-tdBreakAll"]
+
 |**Name** |**Type**|**Description**|
 |:------ |:----|:------ |
 |siteName| String |Name of the new project site. If empty, the site name will be the same as the project name.|
